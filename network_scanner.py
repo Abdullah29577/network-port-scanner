@@ -1,9 +1,9 @@
 import socket  # The library used for network connections
 
-# --- CONFIGURATION ---
-# Dummy IP addresses representing different corporate assets
+
+
 # 127.0.0.1 = Localhost (Your machine)
-# 10.0.0.x = Typical internal corporate subnet
+
 TARGET_IPS = [
     "127.0.0.1", 
     "10.0.0.15", 
