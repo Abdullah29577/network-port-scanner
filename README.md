@@ -8,7 +8,7 @@ TCP Handshaking: How a socket connection is established between a client and a s
 Network Security: Which ports (like 21, 23, and 3389) represent high risks and why they should be closed.
 Python Automation: How to use loops and dictionaries to automate a repetitive manual auditing task.
 Error Handling: Implementing timeouts to ensure the script handles unreachable hosts efficiently.
-🛠️ How it Works
+ How it Works
 Target List: The script iterates through a list of provided IP addresses.
 Port Blacklist: It checks each IP against a dictionary of "Forbidden Ports" (e.g., FTP, Telnet, RDP).
 Connection Attempt: Using Python's socket library, the script attempts a TCP connection to the port.
